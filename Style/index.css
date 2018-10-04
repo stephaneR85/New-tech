@@ -1,0 +1,126 @@
+html{
+  max-height:100%;
+}
+body{
+  height:100%;
+  position: relative;
+}
+img#banniere{
+	width: 100%;
+	height: 100px;
+}
+.col{
+	margin-bottom: 20px; 
+}
+img#produit{ 
+	width: 80%; 
+	}
+#prix{
+	float: right;
+}
+h1{
+	margin:10px;
+	float: left;
+}
+#compte{
+	float: right;
+	margin:20px;
+}
+img#panier{
+	float:left;
+	width: 20%;
+}
+#nom_produit{
+	height:40px;
+}
+#image{
+	display:inline-table;
+}
+#nom_produit{
+	display:inline-table;
+}
+#prix{
+	display:inline-table;
+}
+#historique{
+	margin-bottom: 20px;
+}
+#prix{
+	font-size:16px;
+	color: red;
+}
+#champ{
+	font-size:14px;
+	margin-right: 15px;
+}
+#results{
+	text-align:right;
+	background-color: #eee;
+	border: 1px solid #d5d5d5;
+}
+#results a, p{
+	color: black;
+}
+.jumbotron img{
+	margin: 20px;
+}
+.jumbotron #prix{
+	margin: 20px;
+}
+.titre{
+	color: black;
+	font-size: 2em;
+}
+#content{
+	min-height: 100%;
+	position: relative;
+}
+#main{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position:relative;
+	padding-bottom: 120px;
+	padding-top: 20px;
+	min-height: 480px;
+}
+
+.footer-min {
+	position: absolute;
+	background-position: 50% 100%;
+	height: 100px;
+	background: #eee;
+    border-top: 1px solid #d5d5d5;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 20px;
+}
+.footer-max {
+	position: relative;
+	background-position: 50% 100%;
+	height: 100px;
+	background: #eee;
+    border-top: 1px solid #d5d5d5;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+footer .row{
+	margin: 1rem 6.5rem;
+	columns: 4 24%;
+	float:left;
+	font-size:100%;
+	margin-bottom:2%;
+}
+footer .titre {
+	color:#777;
+	font-size: 2rem;
+}
+.historique{
+	min-height: 100px;
+}
+td .titre{
+	font-size: 14px;
+	color: #337ab7;
+}
